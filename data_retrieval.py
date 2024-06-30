@@ -1,4 +1,4 @@
-# data_scrape.py
+# data_retrieval.py
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
