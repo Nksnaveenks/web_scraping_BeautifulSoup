@@ -7,7 +7,7 @@ import os
 
 # Define a function to run the Python script
 def run_data_retrieval():
-    os.system("python /path/to/your/script/data_retrieval.py")
+    os.system("python data_retrieval.py")
 
 # Schedule the task to run daily at 7 AM
 schedule.every().day.at("07:00").do(run_data_retrieval)
